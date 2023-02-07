@@ -1,0 +1,19 @@
+ {
+    "name": "slavlee/t3campus-example2",
+    "type": "typo3-cms-extension",
+    "description": "This is just a example extension of T3 Campus for educational reasons.",
+    "license": "GPL-2.0-or-later",
+    "require": {
+       "typo3/cms-core": "^11.5 || ^12.0"
+    },
+    "autoload": {
+      "psr-4": {
+         "Slavlee\\T3campusExample2\\": "Classes/"
+      }
+   },
+   "extra": {
+      "typo3/cms": {
+         "extension-key": "t3campus_example2"
+      }
+   }
+}
